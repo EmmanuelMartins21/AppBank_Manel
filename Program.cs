@@ -86,16 +86,16 @@ namespace AppBank
         private static void InserirConta()
         {
             Console.WriteLine("Inserir nova conta");
-            Console.WriteLine("Digite 1 para Conta Pessoa Fisixa ou 2 para pessoa Juridica");
+            Console.WriteLine("Digite 1 para Conta Pessoa Fisica ou 2 para pessoa Juridica: ");
             int entradaTipoConta = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o nome do CLiente");
+            Console.WriteLine("Digite o nome do CLiente: ");
             string entradaNome = Console.ReadLine();
 
-            Console.WriteLine("Digite o saldo inicaial da conta");
+            Console.WriteLine("Digite o saldo inicaial da conta: ");
             double entradaSaldo = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o credito da conta");
+            Console.WriteLine("Digite o credito da conta: ");
             double entradaCredito = double.Parse(Console.ReadLine());
 
             Conta novaConta = new Conta(tipoConta: (TipoConta)entradaTipoConta,

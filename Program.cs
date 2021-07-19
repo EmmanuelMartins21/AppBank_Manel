@@ -89,10 +89,10 @@ namespace AppBank
             Console.WriteLine("Digite 1 para Conta Pessoa Fisica ou 2 para pessoa Juridica: ");
             int entradaTipoConta = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o nome do CLiente: ");
+            Console.WriteLine("Digite o nome do Cliente: ");
             string entradaNome = Console.ReadLine();
 
-            Console.WriteLine("Digite o saldo inicaial da conta: ");
+            Console.WriteLine("Digite o saldo inicial da conta: ");
             double entradaSaldo = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Digite o credito da conta: ");
